@@ -1,0 +1,23 @@
+{
+  "name": "rekey",
+  "version": "0.9.0",
+  "description": "Takes two arrays (keys and values) and returns an object made of those keys and values.",
+  "author": "Matthew Forrester <matt@keyboardwritescode.com>",
+  "dependencies": {
+    "jshint": "^2.5.1"
+  },
+  "devDependencies": {
+    "expect.js": "0.2.x",
+    "mocha": "1.8.x"
+  },
+  "engines": {
+    "node": ">0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forbesmyester/rekey.git"
+  },
+  "scripts": {
+    "test": "mocha test/index.js"
+  }
+}
